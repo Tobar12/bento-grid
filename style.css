@@ -413,13 +413,16 @@ main {
     body {
         height: 100vh;
         display: flex;
-        align-items: center;
         justify-content: center;
+        box-sizing: border-box;
+        padding-top: 40px;
+        margin: 0px;
     }
 
     main {
-        height: 80%;
-        width: 80%;
+        box-sizing: border-box;
+        height: 85vmin;
+        width: 115vmin;
         margin: 0px;
         padding: 0px;
         grid-template-columns: 25% 25% 25% 25%;
@@ -461,7 +464,7 @@ main {
     }
 
     .main__schedule img {
-        width: 180%;
+        width: 160%;
     }
     
     .main__schedule h2 {
@@ -472,7 +475,6 @@ main {
 
     .main__schedule p {
         width: 100%;
-        padding-right: 32px;
         box-sizing: border-box;
         text-align: left;
     }
@@ -486,23 +488,20 @@ main {
     }
 
     .main__managemultiple img {
-        width: 146%;
+        width: 126%;
     }
 
     .main__managemultiple h2 {
         font-size: 2rem;
-        padding-right: 30px;
     }
 
     .main__maintainschedule {
         grid-area: 2 / 3 / 3 / 4;
         padding: 24px;
-        gap: 40px;
     }
 
     .main__maintainschedule h2 {
         font-size: 2rem;
-        padding-right: 30px;
     }
 
     .main__audiencegrowth {
