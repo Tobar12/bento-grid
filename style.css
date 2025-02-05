@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --purple-500: #7551DC;
+    --purple-100: #D8D1FC;
+    --yellow-100: #F9EEE2;
+    --yellow-500: #FFCC6A;
+    --black: #121212;
+    --main-font: "DM Sans", serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F6F5F6;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 32px;
+    margin: 32px 16px;
+}
+
+
+
+
+
+
+/* Social Media Section */
+
+.main__socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purple-500);
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.main__socialmedia img {
+    width: 192px;
+}
+
+.main__socialmedia h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 2.875rem;
+    line-height: 2.7rem;
+    letter-spacing: -1px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.main__socialmedia h2 span {
+    color: var(--yellow-500);
+}
+
+.main__socialmedia p {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: white;
+    padding-top: 8px;
+}
+
+
+
+
+
+
+/* Manage Multiple Section */
+
+.main__managemultiple {
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.main__managemultiple img {
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.main__managemultiple h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 1.5rem;
+    letter-spacing: -1.8px;
+    color: var(--black);
+}
+
+
+
+
+
+
+/* Maintain Schedule Section */
+
+.main__maintainschedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--yellow-500);
+    padding: 16px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.main__maintainschedule img {
+    width: 208px;
+    margin-bottom: -36.75px;
+}
+
+.main__maintainschedule h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 1.5rem;
+    letter-spacing: -1.8px;
+    color: var(--black);
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
+/* Main Schedule Section */
+.main__schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purple-100);
+    padding: 32px 17.5px;
+    border-radius: 10px;
+}
+
+.main__schedule img {
+    width: 100%;
+}
+
+.main__schedule h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 1.5rem;
+    letter-spacing: -1.8px;
+    color: var(--black);
+    padding-bottom: 24px; 
+}
+
+.main__schedule p {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: var(--black);
+    text-align: center;
+    margin: 24px 15px 0px 15px;
+}
+
+
+
+
+
+
+/* Grow Followers Section */
+.main__growfollowers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--purple-500);
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.main__growfollowers img {
+    width: 72%;
+}
+
+.main__growfollowers h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.7px;
+    padding: 0px 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+/* Audience Growth Section */
+
+.main__audiencegrowth {
+    background-color: white;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.main__audiencegrowth img {
+    width: 179px;
+}
+
+.main__audiencegrowth h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 2.875rem;
+    line-height: 2.7rem;
+    letter-spacing: -1px;
+    padding-bottom: 15px;
+    color: var(--black);
+}
+
+.main__audiencegrowth p {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: var(--black);
+    padding-bottom: 24px;
+}
+
+
+
+
+
+
+/* Create Post Section */
+
+.main__createpost {
+    background-color: var(--yellow-100);
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.main__createpost img {
+    width: 66%;
+}
+
+.main__createpost h2{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.7px;
+    color: var(--black);
+    padding-bottom: 24px;
+}
+
+.main__createpost h2 span {
+    color: var(--purple-500);
+    font-style: italic;
+}
+
+
+
+
+
+/* AI Content Section */
+
+.main__aicontent {
+    background-color: var(--yellow-500);
+    border-radius: 10px;
+    padding: 24px;
+    margin-top: 32px;
+}
+
+.main__aicontent img {
+    width: 63%;
+}
+
+.main__aicontent h2 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.7px;
+    color: var(--black);
+    padding-bottom: 24px;
+}
+
+@media (min-width:768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
+
+    /* Social Media Section */
+    .main__socialmedia {
+        grid-area: 1 / 1 / 2 / 3;
+        padding: 72px 156px;
+    }
+    
+
+
+
+
+    /* Manage Multiple Section */
+    .main__managemultiple {
+        grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    /* Maintain Schedule Section */
+    .main__maintainschedule {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+
+
+
+
+    /* Main Schedule Section */
+    .main__schedule {
+        grid-area: 3 / 1 / 4 / 3;
+    }
+
+    .main__schedule img {
+        width: 51%;
+    }
+
+    .main__schedule p {
+        width: 51%;
+    }
+
+
+
+
+
+    /* Grow Followers Section */
+    .main__growfollowers {
+        grid-area: 4 / 1 / 5 / 3;
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .main__growfollowers img {
+        width: 32%;
+        padding-left: 82px;
+    }
+
+    .main__growfollowers h2 {
+        text-align: left;
+        padding-right: 82px;
+    }
+
+
+
+
+
+    /* Audience Growth Section */
+    .main__audiencegrowth {
+        grid-area: 5 / 1 / 6 / 3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+
+    /* Create Post Section */
+    .main__createpost {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
+
+    /* AI Content Section */
+    .main__aicontent {
+        margin: 0px;
+    }
+
+    .main__createpost__aicontent {
+        grid-area: 6 / 1 / 7 / 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+}
+
+@media (min-width: 1440px)  {
+    
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        height: 80%;
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 40% 30% 30%;
+    }
+
+    .main__socialmedia {
+        grid-area: 1 / 2 / 2 / 4;
+        padding: 32px;
+    }
+
+    .main__socialmedia h2 {
+        margin-top: 30px;
+        font-size: 3.9rem;
+        line-height: 3.5rem;
+        width: 100%;
+    }
+
+    .main__createpost__aicontent {
+        grid-area: 1 / 1 / 4 / 2;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main__createpost img {
+        width: 100%;
+    }
+
+    .main__createpost h2 {
+        width: 80%;
+        font-size: 2.5rem;
+    }
+
+    .main__schedule {
+        grid-area: 1 / 4 / 3 / 5;
+        align-items: flex-start;
+        overflow: hidden;
+        padding: 32px;
+    }
+
+    .main__schedule img {
+        width: 180%;
+    }
+    
+    .main__schedule h2 {
+        margin-top: 18px;
+        font-size: 2rem;
+        line-height: 1.75rem;
+    }
+
+    .main__schedule p {
+        width: 100%;
+        padding-right: 32px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    .main__managemultiple {
+        grid-area: 2 / 2 / 3 / 3;
+        overflow: hidden;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 24px;
+    }
+
+    .main__managemultiple img {
+        width: 146%;
+    }
+
+    .main__managemultiple h2 {
+        font-size: 2rem;
+        padding-right: 30px;
+    }
+
+    .main__maintainschedule {
+        grid-area: 2 / 3 / 3 / 4;
+        padding: 24px;
+        gap: 40px;
+    }
+
+    .main__maintainschedule h2 {
+        font-size: 2rem;
+        padding-right: 30px;
+    }
+
+    .main__audiencegrowth {
+        grid-area: 3 / 2 / 4 / 3;
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+
+    .main__growfollowers {
+        grid-area: 3 / 3 / 4 / 5;
+        box-sizing: border-box;
+        padding: 24px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .main__audiencegrowth img {
+        width: 100%;
+    }
+
+    .main__audiencegrowth h2 {
+        font-size: 3.9rem;
+    }
+
+    .main__growfollowers img {
+        width: 45%;
+        padding: 0px;
+    }
+
+    .main__growfollowers h2 {
+        width: 100%;
+        padding-right: 30px;
+        font-size: 2.5rem;
+    }
+
+    .main__aicontent {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main__aicontent img {
+        width: 100%;
+    }
+
+    .main__aicontent h2 {
+        font-size: 2.5rem;
+        padding-right: 30px;
+    }
+}
